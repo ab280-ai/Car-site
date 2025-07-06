@@ -1,4 +1,64 @@
+car-site/
+├─ index.html           ← Page 1: Top 10 car-producing countries (image)
+├─ ferrari.html         ← Page 2
+├─ bugatti.html         ← Page 3
+├─ lambo.html           ← Page 4
+├─ landrover.html       ← Page 5
+├─ mahindra.html        ← Page 6
+├─ toyota.html          ← Page 7
+├─ maruti.html          ← Page 8
+├─ bentley.html         ← Page 9
+├─ defender.html        ← Page 10
+├─ styles.css           ← Optional: Styling
+└─ images/
+    ├─ countries.jpg
+    ├─ ferrari.jpg
+    ├─ bugatti.jpg
+    ├─ lambo.jpg
+    ├─ landrover.jpg
+    ├─ mahindra.jpg
+    ├─ toyota.jpg
+    ├─ maruti.jpg
+    ├─ bentley.jpg
+    └─ defender.jpg<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bugatti</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="ferrari.html">Ferrari</a> |
+    <a href="bugatti.html">Bugatti</a> |
+    <a href="lambo.html">Lamborghini</a> |
+    <a href="landrover.html">Land Rover</a> |
+    <a href="mahindra.html">Mahindra</a> |
+    <a href="toyota.html">Toyota</a> |
+    <a href="maruti.html">Maruti Suzuki</a> |
+    <a href="bentley.html">Bentley</a> |
+    <a href="defender.html">Defender</a>
+  </nav>
 
+  <h1>Bugatti</h1>
+  <img src="images/bugatti.jpg" alt="Bugatti Car">
+</body>
+</html>body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: navy;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
