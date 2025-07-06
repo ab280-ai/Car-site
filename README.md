@@ -1,5 +1,4 @@
-# Car-site
-Top 10 car companies in the worldcar-site/
+car-site/
 ├─ index.html           ← Page 1: Top 10 car-producing countries (image)
 ├─ ferrari.html         ← Page 2
 ├─ bugatti.html         ← Page 3
@@ -21,7 +20,8 @@ Top 10 car companies in the worldcar-site/
     ├─ toyota.jpg
     ├─ maruti.jpg
     ├─ bentley.jpg
-    └─ defender.jpg<!DOCTYPE html>
+    └─ defender.jpg
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
